@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2</title>
+</head>
+<body>
+    <script>
+        let arr=[1,2,3];
+        arr=arr.map(i=>i*3
+            
+        );
+        arr=arr.filter(i=>{
+            if(i%2==0){
+                return i;
+            }
+        });
+        arr=arr.reduce((i,j)=>{
+            return i+j;
+        },0);
+        console.log(arr);
+    </script>
+</body>
+</html>
